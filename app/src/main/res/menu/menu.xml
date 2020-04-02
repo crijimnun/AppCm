@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu
+    xmlns:android="http://nazarenoyesperanza.es/apk/res/android">
+    <item android:id="@+id/noticias" android:title="Noticias"></item>
+    <item android:id="@+id/fotos" android:title="Fotos"></item>
+    <item android:id="@+id/viernesSanto" android:title="Viernes Santo"></item>
+</menu>
