@@ -3,7 +3,8 @@ package com.example.appcm;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.MenuItem;
+import android.view.Menu;
+//import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         
     }
 
- //   public boolean onCreateOptionsMenu(Menu menu){
-   //     getMenuInflater().inflate(R.menu.menu, menu);
-     //   return true;
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
 
-    //}
+    }
 
  //   public boolean onMenuItemSelected(int featureId, MenuItem item){
    //     switch (item.getItemId()){
