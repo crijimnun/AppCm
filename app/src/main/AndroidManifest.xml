@@ -13,6 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".NoticiasFBActivity"/>
+        <activity android:name=".NoticiasWebActivity"/>
         <activity android:name=".FotosActivity"/>
         <activity android:name=".ViernesSantoActivity"/>
         <activity android:name=".NoticiasActivity"/>
