@@ -30,11 +30,18 @@ public class  MainActivity extends AppCompatActivity {
                 Intent i = new Intent(this, NoticiasActivity.class);
                 startActivity(i);
                 finish();
+                return true;
             case R.id.fotos:
-                lblMensaje.setText("¡Nuestras Fotos!");;
+                //lblMensaje.setText("¡Nuestras Fotos!");
+                Intent i1 = new Intent(this, FotosActivity.class);
+                startActivity(i1);
+                finish();
                 return true;
             case R.id.viernesSanto:
-                lblMensaje.setText("¡Viernes Santo y Nuestro Recorrido!");;
+                //lblMensaje.setText("¡Viernes Santo y Nuestro Recorrido!");
+                Intent i2 = new Intent(this, ViernesSantoActivity.class);
+                startActivity(i2);
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

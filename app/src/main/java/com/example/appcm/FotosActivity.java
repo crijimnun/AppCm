@@ -8,12 +8,12 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class NoticiasActivity extends AppCompatActivity {
+public class FotosActivity extends AppCompatActivity {
 
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_noticias);
+        setContentView(R.layout.activity_fotos);
 
     }
 
