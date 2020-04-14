@@ -1,20 +1,19 @@
 package com.example.appcm;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class  MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
-    @Override
+public class NoticiasActivity extends AppCompatActivity {
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        
+        setContentView(R.layout.activity_noticias);
+
     }
 
     public boolean onCreateOptionsMenu(Menu menu){
@@ -27,9 +26,8 @@ public class  MainActivity extends AppCompatActivity {
         TextView lblMensaje= (TextView) findViewById(R.id.lblMensaje);
         switch (item.getItemId()) {
             case R.id.noticias:
-                Intent i = new Intent(this, NoticiasActivity.class);
-                startActivity(i);
-                finish();
+                lblMensaje.setText("¡Últimas Noticias!");
+                return true;
             case R.id.fotos:
                 lblMensaje.setText("¡Nuestras Fotos!");;
                 return true;
